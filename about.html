@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--Accordion widget -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="content">
+        <!--List of links for navigation bar -->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="About.html">About</a></li>
+        <li><a href="Resources.html">Resources</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+    </ul>
+    <header>
+        <!--Header for the about page -->
+        <br><h1>About</h1>
+    </header>
+    <main>
+        <!--Heading, image and blurb about me -->
+        <h2>About the Developer</h2>
+        <img class ="img" src="Project_Images_Fonts/SelfImage.JPG" alt="picture of website creator">
+        <p>Drew Robieson is currently a sophomore Computer Science major at the University of North Carolina Charlotte. In his free time he enjoys programming and playing video games.</p><br>
+
+        <!--FAQ portion of page using accordion widget with <button> and <p> tags along with an embedded link to the TT Offline page -->
+        <button class="titlebutton">FAQ</button>
+           <div id="tabs">
+            <button class="accbutton">What is Toontown?</button>
+                <div class="tab">
+                <p>Toontown was a MMORPG released by Disney in Summer of 2003. The plot of the game revolves around the fight between happy, fun toons and evil robot businessmen known as cogs. The original game was officially shutdown in September of 2013 although various grups of fans have kept the game alive through fan-made servers.  </p>
+
+                    <!--div for youtube video-->
+                    <div id="player"> </div>
+
+                </div>
+
+        <button class="accbutton">What is Toontown Offline?</button>
+                <div class="tab">
+                <p>Toontown Offline is a fan-made recreation of Disney's Toontown. Offline differs from other recreations in that it allows users host their own servers to play on with their friends or play solo without an internet connection.  </p>
+                </div>
+
+                <button class="accbutton">My game isn't running properly!</button>
+                <div class="tab">
+                <p class="text1">I recommend you contact the Offline Team directly by going <a href="https://ttoffline.com/">here</a> </p>
+                </div>
+            </div>
+
+        <br><img src="Project_Images_Fonts/DogImage.jpg" alt="cartoon blue dog">
+
+        <!--Button that redirects users to contact page -->
+        <h2>Have more questions?</h2>
+        <form action="Contact.html">
+        <button class="button"> CONTACT US </button> <br><br>
+        </form>
+
+
+
+    </main>
+    </div>
+    
+    <footer class="footer">
+        <!--Links to TT Offline game -->
+        <a class="footLink" href="https://ttoffline.com/">Toontown Offline</a> &emsp;
+        <a class="footLink" href="https://twitter.com/tt_offline?lang=en">Twitter</a>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <ul>
+            <!--List of links for navigation bar -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Resources.html">Resources</a></li>
+            <li><a class="active" href="contact.html">Contact Us</a></li>
+        </ul>
+        <header>
+            <!--Contact page header -->
+            <br><h1>Contact Us</h1>
+        </header>
+        <main>
+            
+        
+            <!--Contact form -->
+            <form action="#"> <br>
+        <table>
+            <td>
+
+        
+                <table>
+                    <tr>
+                        <!--User's name -->
+                        <td><label for="name">Name: </label></td>
+                        <td><input type ="text" id="name" name="personName" required></td>
+                    </tr>
+                    <tr>
+                        <!--User's email -->
+                        <td><label for="email">Email: </label></td>
+                        <td><input type="email" id="email" name="personEmail" required></td>
+                    </tr>
+                    <tr>
+                         <!--Subject of the message -->
+                        <td><label for="subject">Subject: </label></td>
+                        <td><input type="text" id="subject" name="messageSubject" required></td>
+                    </tr>
+                    <tr>
+                        <!--Who the message should be sent to -->
+                        <td><label for="contact">Send to:</label></td>
+                        <td><select name="contact" id="contact">
+                            <option value="web">Website Creator</option>
+                            <option value="offline">Offline Team Member</option>
+                        </select> &emsp;</td>
+                    </tr>
+                    <tr>
+                        <!--Body of the message-->
+                        <td><label for="text">Body: </label><br></td>
+                        <td><input type="text" id="text" name="messageBody" required></td>
+                    </tr>
+                    <tr>
+                        <!--Submit button-->
+                        <td></td>
+                        <td></td>
+                        <td><button class="button">Submit </button></td>
+                    </tr>
+            </table>
+            </form>
+        </td>
+
+            <!--Img tag for mickey mouse image -->
+           <td> <img alt="mickey mouse" id="img1" src="Project_Images_Fonts/Mickey.jpg"></td>
+        </table>
+        
+        </main>
+    </div>
+
+<footer class="footer">
+    <!--Links to TT Offline Game -->
+    <a class="footLink" href="https://ttoffline.com//">Toontown Offline</a> &emsp;
+    <a class="footLink" href="https://twitter.com/tt_offline?lang=en">Twitter</a>
+</footer>
+
+</body>
+</html>

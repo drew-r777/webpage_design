@@ -1,0 +1,142 @@
+{"words":[
+    {
+      "title": "",
+      "desc": "Magic Words are commands that can be used to modify the game while playing Toontown Offline. If you can't remember a specific command, try starting with the help command below!",
+      "words": ["~help"],
+      "img":"Project_Images_Fonts/wizardDuck.jpg",
+      "alt": "green and orange duck wearing a witch hat"
+    },
+    {
+      "title": "Laff Commands",
+      "desc": "",
+      "words": ["~sethp",  "~hp", "~setlaff", "~laff", "~setmaxhp", "~maxhp", "~setmaxlaff", "~maxlaff"],
+      "img": "",
+      "alt": ""
+    },
+    {
+      "title": "Walkspeed Commands",
+      "desc": "",
+      "words": ["~togglerun", "~run", "~setspeed", "~speed"],
+      "img": "Project_Images_Fonts/cog2.png",
+      "alt": "robot businessman"
+    },
+    {
+      "title": "Max Toon",
+      "desc": "",
+      "words": ["~maxtoon", "~max", "~maxdoodle"],
+      "img": "Project_Images_Fonts/max.jpg",
+      "alt": "blue dog celebrating with fireworks"
+    },
+    {
+      "title": "Emote Commands",
+      "desc": "",
+      "words": ["~unlockemotes", "~emotes"],
+      "img": "Project_Images_Fonts/sadDog.png",
+      "alt": "sad dog with rainbow colored clothing"
+    },
+    {
+      "title": "Garden Commands",
+      "desc": "",
+      "words": ["~maxgarden", "~unlockgarden", "~garden", "~growflowers", "~pickallflowers", "~pickflowers", "~growtrees", "~picktrees", "~plantflowers", "~flowerall", "~restockflowerspecials", "~specials", "~gibspecials", "~specialsall"],
+      "img": "",
+      "alt": ""
+    },
+    {
+      "title": "Jellybean Commands",
+      "desc": "",
+      "words": ["~setjarbeans", "~jarjellybeans", "~setjarmoney", "~jar", "~setjar", "~setbankbeans", "~bankbeans", "~bankjellybeans", "~setbankmoney", "~bankmoney", "~bank", "~setbank", "~setmaxjarbeans", "~maxjarmoney", "~maxjar", "~setmaxjar", "~setjarsize", "~setmaxbankbeans", "~maxbankbeans", "~maxbankjellybeans", "~setmaxbankmoney", "~maxbank", "~banksize"],
+      "img": "",
+      "alt": ""
+    },
+    {
+      "title": "Emblem Commands",
+      "desc": "",
+      "words": ["~setemblems", "~emblems"],
+      "img": "Project_Images_Fonts/deer.png",
+      "alt": "black deer waving"
+    },
+    {
+      "title": "Immortal Commands",
+      "desc": "",
+      "words": ["~toggleimmortal", "~immortal", "~toggleunlimitedgags", "~unlimitedgags", "~toggleinstakill", "~instakill", "~toggleautojoin", "~autojoin", "~togglecogalwaysjoin", "~cogsalwaysjoin", "~alwaysjoin", "~skipmovie", "~skipround", "~enablegod", "~god", "~unlimitedpower"],
+      "img": "",
+      "alt": ""
+    },
+    {
+      "title": "Collision Commands",
+      "desc": "",
+      "words": ["~togglecollisionsoff", "~collisionsoff", "~noclip", "~colloff", "~togglecollisionson", "~collisionson", "~clip", "~yesclip", "~collon", "~togglecollisionbounds", "~collisionsbound", "~colbound", "~collisionbound"],
+      "img": "",
+      "alt": ""
+    },
+    {
+      "title": "Teleport Commands",
+      "desc": "",
+      "words": ["~unlockglobaltp", "~alltp", "~globaltp", "~teleport", "~tp"],
+      "img": "Project_Images_Fonts/fox.png",
+      "alt": "brown fox shrugging"
+    },
+    {
+      "title": "Gag Commands",
+      "desc": "",
+      "words": ["~unlocktrackaccess", "~trackaccess", "~settrackaccess", "~unlocktracks", "~tracks", "~settracks", "~setinventory,", "~inventory" ,"~gaginventory"],
+      "img": "Project_Images_Fonts/gagshop.jpg",
+      "alt": "goofy's gag shop"
+    },
+    {
+      "title": "True Friend Commands",
+      "desc": "",
+      "words": ["~truefriend", "~tf", "~secretfriend"],
+      "img": "Project_Images_Fonts/bird.png",
+      "alt": "kiwi bird pressing a button"
+    },
+    {
+      "title": "Texture Commands",
+      "desc": "",
+      "words": ["~toggletextures", "~textures", "~togglevertexpainting", "~vertexpainting", "~vertex", "~toggleshading", "~shading", "~toggleshowvertices", "~showverts", "~verts", "~showvertices"],
+      "img": "",
+      "alt": ""
+    },
+    {
+      "title": "Cog Commands",
+      "desc": "",
+      "words": ["~spawnbuilding", "~building", "~spawnbldg", "~bldg", "~spawnfo", "~fo", "~spawncogdo", "~cogdo", "~setceindex", "~setce", "~ce"],
+      "img": "Project_Images_Fonts/Cog.jpg",
+      "alt": "robot businessman"
+    },
+    {
+      "title": "Fishing Commands",
+      "desc": "",
+      "words": ["~setfishingrod", "~rod", "~setrod", "~setfishingbucket", "~fishbucket", "~bucket", "~maxtank"],
+      "img": "Project_Images_Fonts/bearacuda.png",
+      "alt": "brown bear with snorkel and flippers"
+    },
+    {
+      "title": "Cheesy Effects & Props",
+      "desc": "",
+      "words": ["~setcheesyeffect", "~transformcog", "~dna", "~tpose", "~forcetpose", "~nudify", "~setmuzzle", "~seteyes", "~lefthandprop", "~righthandprop", "~bothhandsprop", "~transformdisney", "~transformchar", "~transformdoodle", "~setdoodleindex", "~doodleindex", "~setdoodle", "~transformgoon", "~setgoonindex", "~goonindex", "~transformprop", "~setpropindex", "~propindex", "~setprop", "~transformboss", "~setbossindex", "~bossindex", "~transformfish", "~setanimeindex", "~setmiscindex", "~transformstreetprop", "~transformstreet", "~setstreetpropindex"],
+      "img": "",
+      "alt": ""
+    },
+    {
+      "title": "Clothing Commands",
+      "desc": "",
+      "words": ["~setname", "~name", "~sethat", "~hat", "~setglasses", "~glasses", "~setbackpack", "~backpack", "~setshoes", "~shoes", "~clearaccessories", "~removeallaccessories", "~removeaccessories"],
+      "img": "Project_Images_Fonts/clothing.png",
+      "alt": "t-shirts and skirts"
+    },
+    {
+      "title": "Boss Commands",
+      "desc": "",
+      "words": ["~skipcfo", "~hitboss", "~toggleboss", "~pauseboss", "~disablegoons", "~resetcfoobjects", "~destroycfogoons", "~destroygoons", "~skipcj", "~filljury", "~togglescale", "~skipcourtroomcatastrophe", "~skipcc", "~skipvp", "~stunvp", "~skipsellbotshowdown", "~skipss", "~skipceo"],
+      "img": "",
+      "alt": ""
+    },
+    {
+      "title": "Home & Furniture Commands",
+      "desc": "",
+      "words": ["~sethouse", "~house", "~housetype", "~sethousetype", "~mailfurniture", "~furniture", "~mailallfurniture", "~allfurniture", "~furnitures", "~toggleinstantdelivery", "~fastdelivery", "~togglefastdelivery", "~toggleinstadelivery", "~instantdelivery", "~instadelivery", "~speedydelivery"],
+      "img": "",
+      "alt": ""
+    }
+  ]}

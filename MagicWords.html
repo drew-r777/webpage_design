@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Magic Words</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <!--Search plugin -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="Search-Through-Text-Finder/jquery.highlight.js"></script>
+    <script src="Search-Through-Text-Finder/jquery.scrollto.js"></script>
+    <script src="Search-Through-Text-Finder/jquery.finder.js"></script>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+
+</head>
+<body>
+    <div class="content">
+<ul>
+    <!--List of links for navigation bar -->
+    <li><a href="index.html">Home</a></li>
+    <li><a href="About.html">About</a></li>
+    <li><a class="active" href="Resources.html">Resources</a></li>
+    <li><a href="Contact.html">Contact Us</a></li>
+</ul>
+<header>
+    <!--Header for magic words page -->
+    <br><h1>Magic Words</h1>
+</header>
+
+<main>
+    <!--outer div for search plugin -->
+    <div class="app" data-finder-wrapper data-finder-scroll-offset="175">
+
+        <!--button to open up search bar -->
+        <button class="finder-activator" data-finder-activator>Search for Commands</button>
+
+        <!--information on page that can be searched for-->
+        <div class="content" data-finder-content>
+            <!--div for data in the magic.json file -->
+            <div id="magic"></div>
+
+        </div>
+    </div>
+
+
+</main>
+    </div>
+<footer class="footer">
+<!--Links to TT Offline game -->
+    <a class="footLink" href="https://ttoffline.com//">Toontown Offline</a> &emsp;
+    <a class="footLink" href="https://twitter.com/tt_offline?lang=en">Twitter</a>
+</footer>
+
+
+</body>
+</html>

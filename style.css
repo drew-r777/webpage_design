@@ -1,0 +1,308 @@
+/*CSS */
+html {
+    height: 100%;
+    margin: 0;
+  } 
+  
+  
+/*Formatting for navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(180, 68, 24)
+}
+
+li {
+    float: left;
+}
+
+/*Changes navigation bar colors, position, size (padding) */
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 30px 100px;
+    background-color: rgb(180, 68, 24);
+    font-size: 23px;
+    text-decoration: black;
+}
+
+/*Changes the color of each item on navigation bar when user mouses over it */
+li a:hover {
+    background-image: linear-gradient(#ec9969, #dfdf21);
+}
+
+/*Highlight active page tab */
+.active {
+    background-image: linear-gradient(#ec9969, #dfdf21);
+  }
+  
+
+/*Gives header a background image, adjusts its size, adds top margin, centers and bolds font in the header, changes font to Toontown's game font */
+header{
+    background-image: url("Project_Images_Fonts/ttchead.JPG");
+    background-size: 100%;
+    height: 180px;
+    width: 100%;
+    background-repeat: no-repeat;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Impress BT", BT;
+    font-weight: bold;
+
+}
+
+/*Positioning for the page header */
+h1{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/*Changes color of the body and adds two borders */
+ body{
+     display: flex;
+     flex-direction: column;
+     margin: 0;
+     min-height: 100vh;
+     background-color: #77b3c9;
+     font-family: "Impress BT", BT;
+     text-align: center;
+     font-size: 20px;
+ }
+ .content {
+    flex: 1 0 auto; 
+    
+ }
+ main{
+    padding: 50px 0;
+    flex: 1;
+ }
+ 
+
+
+/*Applies image used in header to the footer */
+ .footer {
+    background-color:rgb(180, 68, 24);
+    font-family: "Impress BT", BT;
+    flex-shrink: 0;
+    padding: 20px;
+    margin-top: auto;
+  }
+
+
+/*Changes color of words in the footer, removes underline in hyperlink */
+.footLink{
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: black;
+}
+
+
+/*Sets size for images in the slider*/
+.slider img{
+    width: 100%;
+    height: 500px;
+}
+
+/*Centers the slider on the page*/
+.bx-wrapper {
+    display: block;
+    margin: auto;
+}
+
+
+/*Contact page*/
+/* Changes appearance of input boxes by giving them a border and making them larger*/
+
+table{
+    table-layout: fixed;
+    width: 100%;
+}
+
+td{
+    padding: 10px;
+}
+
+label{
+    display: inline-block;
+}
+input,select{
+    background-color: white;
+    width:275%;
+    border: 2px solid white;
+    
+}
+#contact{
+    width:275%;
+}
+
+#text{
+    background-color: white;
+    height: 150px;
+    border: 2px solid white;
+}
+
+/*Font and colors for sumbit button*/
+.button{
+    color: white;
+    background-color: #9b3404;
+    width: 200px;
+    height: 50px;
+    font-family: "Impress BT", BT;
+    font-size: 20px;
+    border: #ffffff;
+    border-radius: 5px;
+}
+
+/*Changes color of submit button if user hovers over it*/
+button:hover {
+    background-color: #d35c24;
+    font-size: larger;
+}
+
+/*About page */
+/*Formatting for the tabs of the accordion widget*/
+.tab {
+    margin-left: .25%;
+    margin-right: .25%;
+    padding: 0 18px;
+    background-color: #fcfcfc;
+    color: #352a2a;
+    outline: double;
+    display: none;
+    overflow: hidden;
+}
+
+/*changes color of tab headers when moused over*/
+h3:hover {
+    color: #cbbcbc;
+    font-weight: bold;
+    background-color: #56c5ec;
+}
+
+/*Formatting for tab headings*/
+.accbutton {
+    background-color: #429ab8;
+    color: #171f1f;
+    border: double white 3.5px;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    transition: 0.5s;
+    font-family: "Impress BT", BT;
+    font-size: 25px;
+}
+
+/*Formatting for accordion heading*/
+.titlebutton{
+    background-color: #429ab8;
+    color: #171f1f;
+    border: double white 3.5px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: "Impress BT", BT;
+    font-size: 25px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+
+/* Resources page*/
+.resourcepage{
+    display: flex;
+    flex-direction: row;
+}
+
+.resourcelink{
+    height:450px;
+    width:100%;;
+}
+
+.resourcelink:hover{
+    filter: brightness(120%);
+}
+
+
+select{
+    width: 5%;
+}
+
+/*Magic words page*/
+/*class used for wide images on the page*/
+.wide{
+    border-style: inset;
+    color: black;
+    width: 40%;
+    height: 40%;
+}
+
+/*Gives first image on the page a circular border and greys out some of the color*/
+#duck{
+    border-radius: 40%;
+    filter: grayscale(50%);
+}
+
+
+/*Style for search window*/
+.finder {
+    position: fixed;
+    top: -100px;
+    right: 0;
+    left: 0;
+    outline: double;
+    color: #429ab8;
+    font-family: "Impress BT", BT;
+    display: -webkit-box;
+    display: flex;
+    height: 50px;
+    background: #ffffff;
+    font-size: 20px;
+    padding: 6px;
+}
+
+.finder.active {
+    top: 0;
+}
+
+/*Changes size and style of input box in search bar*/
+.finder-input {
+    flex-grow: 1;
+    width: 0;
+    height: 40px;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+/*Changes the size of the prev/next/exit buttons*/
+.btn-finder {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    padding: 0;
+}
+
+/*Styling for button that opens the search bar*/
+.finder-activator{
+    position: relative;
+    top: 50px;
+    color: white;
+    background-color: #303b43;
+    padding: 20px;
+    font-family: "Impress BT", BT;
+    font-size: 20px;
+}
+
+/*highlights strings that are searched for*/
+.highlight {
+    background: #c2c68a;
+}
+.highlight.active {
+    background: #e5d51e;
+}
