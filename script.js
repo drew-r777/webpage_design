@@ -65,28 +65,6 @@ $(document).ready(function() {
 
 });
 
-
-
-
-
-//INDEX PAGE
-/*Javascript for bx-slider*/
-/*$(document).ready(function() {
-    $('.slider').bxSlider({
-        auto: true,
-        pause: 3000,
-        minSlides: 1,
-        maxSlides: 1,
-        slideMargin: 20,
-        slideWidth: 900,
-        moveSlides: 1,
-
-    });
-
-});*/
-
-
-
 //javascript to emebed youtube video
 //https://developers.google.com/youtube/iframe_api_reference
 var tag = document.createElement('script');
@@ -110,10 +88,6 @@ function onYouTubeIframeAPIReady() {
 function onPlayerReady(event) {
     event.target.playVideo();
 }
-
-
-
-
 
 //Battle simulator code
 //Var for each cog
